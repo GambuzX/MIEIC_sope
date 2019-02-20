@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 #include <sys/time.h>
 #include <sys/times.h>
 
 int main(int argc, char * argv[]) {
 
+    long ticks_sec = sysconf(_SC_CLK_TCK);
     struct timeval tv1, tv2;
     gettimeofday(&tv1, NULL);
 
@@ -33,14 +35,14 @@ int main(int argc, char * argv[]) {
         struct timeval tvdiff = { tv2.tv_sec - tv1.tv_sec, tv2.tv_usec - tv1.tv_usec };
         if (tvdiff.tv_usec < 0) { tvdiff.tv_usec += 1000000; tvdiff.tv_sec -= 1; }
 
-        printf("Iter %d: %LF %Lf %LF\n", iter, (long double) tvdiff.tv_sec, (long double) times_var.tms_utime / CLOCKS_PER_SEC, (long double) times_var.tms_stime / CLOCKS_PER_SEC);
+        printf("Iter %d: %LF %Lf %LF\n", iter, (long double) tvdiff.tv_sec, (long double) times_var.tms_utime / ticks_sec, (long double) times_var.tms_stime / ticks_sec);
 
         iter++;
     }
     gettimeofday(&tv2, NULL);
     struct timeval tvdiff = { tv2.tv_sec - tv1.tv_sec, tv2.tv_usec - tv1.tv_usec };
     if (tvdiff.tv_usec < 0) { tvdiff.tv_usec += 1000000; tvdiff.tv_sec -= 1; }
-    printf("Iter %d: %LF %Lf %LF\n", iter, (long double) tvdiff.tv_sec, (long double) times_var.tms_utime / CLOCKS_PER_SEC, (long double) times_var.tms_stime / CLOCKS_PER_SEC);
+    printf("Iter %d: %LF %Lf %LF\n", iter, (long double) tvdiff.tv_sec, (long double) times_var.tms_utime / ticks_sec, (long double) times_var.tms_stime / ticks_sec);
 
     return 0;
 }
