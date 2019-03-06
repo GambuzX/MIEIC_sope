@@ -1,0 +1,285 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 191580 10364 ?        Ss   14:48   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:48   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   14:48   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   14:48   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/0:0H-kblockd]
+root         8  0.0  0.0      0     0 ?        I<   14:48   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    14:48   0:03 [rcu_preempt]
+root        11  0.0  0.0      0     0 ?        I    14:48   0:00 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        I    14:48   0:00 [rcu_bh]
+root        13  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/0]
+root        14  0.0  0.0      0     0 ?        S    14:48   0:00 [rcub/0]
+root        15  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/0]
+root        16  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/0]
+root        17  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/0:1-events]
+root        18  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/0]
+root        19  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/1]
+root        20  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/1]
+root        21  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/1]
+root        22  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/1]
+root        23  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/1]
+root        25  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/1:0H-kblockd]
+root        26  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/2]
+root        27  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/2]
+root        28  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/2]
+root        29  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/2]
+root        30  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/2]
+root        31  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/2:0-mm_percpu_wq]
+root        32  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/2:0H-kblockd]
+root        33  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/3]
+root        34  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/3]
+root        35  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/3]
+root        36  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/3]
+root        37  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/3]
+root        39  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/3:0H-kblockd]
+root        40  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/4]
+root        41  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/4]
+root        42  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/4]
+root        43  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/4]
+root        44  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/4]
+root        46  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/4:0H-kblockd]
+root        47  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/5]
+root        48  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/5]
+root        49  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/5]
+root        50  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/5]
+root        51  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/5]
+root        53  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/5:0H-kblockd]
+root        54  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/6]
+root        55  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/6]
+root        56  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/6]
+root        57  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/6]
+root        58  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/6]
+root        60  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/6:0H-kblockd]
+root        61  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/7]
+root        62  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/7]
+root        63  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/7]
+root        64  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/7]
+root        65  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/7]
+root        67  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/7:0H-kblockd]
+root        68  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/8]
+root        69  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/8]
+root        70  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/8]
+root        71  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/8]
+root        72  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/8]
+root        74  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/8:0H-kblockd]
+root        75  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/9]
+root        76  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/9]
+root        77  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/9]
+root        78  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/9]
+root        79  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/9]
+root        81  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/9:0H-kblockd]
+root        82  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/10]
+root        83  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/10]
+root        84  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/10]
+root        85  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/10]
+root        86  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/10]
+root        88  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/10:0H-kblockd]
+root        89  0.0  0.0      0     0 ?        S    14:48   0:00 [cpuhp/11]
+root        90  0.0  0.0      0     0 ?        S    14:48   0:00 [idle_inject/11]
+root        91  0.0  0.0      0     0 ?        S    14:48   0:00 [migration/11]
+root        92  0.0  0.0      0     0 ?        S    14:48   0:00 [rcuc/11]
+root        93  0.0  0.0      0     0 ?        S    14:48   0:00 [ksoftirqd/11]
+root        95  0.0  0.0      0     0 ?        I<   14:48   0:00 [kworker/11:0H]
+root        96  0.0  0.0      0     0 ?        S    14:48   0:00 [kdevtmpfs]
+root        97  0.0  0.0      0     0 ?        I<   14:48   0:00 [netns]
+root        98  0.0  0.0      0     0 ?        S    14:48   0:00 [rcu_tasks_kthre]
+root        99  0.0  0.0      0     0 ?        S    14:48   0:00 [kauditd]
+root       100  0.0  0.0      0     0 ?        I    14:48   0:02 [kworker/3:1-events]
+root       101  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/4:1-mm_percpu_wq]
+root       102  0.0  0.0      0     0 ?        S    14:48   0:00 [khungtaskd]
+root       103  0.0  0.0      0     0 ?        S    14:48   0:00 [oom_reaper]
+root       104  0.0  0.0      0     0 ?        I<   14:48   0:00 [writeback]
+root       105  0.0  0.0      0     0 ?        S    14:48   0:00 [kcompactd0]
+root       106  0.0  0.0      0     0 ?        SN   14:48   0:00 [ksmd]
+root       107  0.0  0.0      0     0 ?        SN   14:48   0:00 [khugepaged]
+root       108  0.0  0.0      0     0 ?        I<   14:48   0:00 [crypto]
+root       109  0.0  0.0      0     0 ?        I<   14:48   0:00 [kintegrityd]
+root       110  0.0  0.0      0     0 ?        I<   14:48   0:00 [kblockd]
+root       114  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/6:1-events]
+root       119  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/7:1-mm_percpu_wq]
+root       120  0.0  0.0      0     0 ?        I<   14:49   0:00 [edac-poller]
+root       122  0.0  0.0      0     0 ?        I<   14:49   0:00 [devfreq_wq]
+root       123  0.0  0.0      0     0 ?        S    14:49   0:00 [watchdogd]
+root       124  0.0  0.0      0     0 ?        S    14:49   0:00 [kswapd0]
+root       167  0.0  0.0      0     0 ?        I<   14:49   0:00 [kthrotld]
+root       168  0.0  0.0      0     0 ?        I<   14:49   0:00 [acpi_thermal_pm]
+root       169  0.0  0.0      0     0 ?        I<   14:49   0:00 [nvme-wq]
+root       170  0.0  0.0      0     0 ?        I<   14:49   0:00 [nvme-reset-wq]
+root       171  0.0  0.0      0     0 ?        I<   14:49   0:00 [nvme-delete-wq]
+root       172  0.0  0.0      0     0 ?        I<   14:49   0:00 [ipv6_addrconf]
+root       181  0.0  0.0      0     0 ?        I<   14:49   0:00 [kstrp]
+root       194  0.0  0.0      0     0 ?        I<   14:49   0:00 [charger_manager]
+root       196  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/0:3-events]
+root       232  0.0  0.0      0     0 ?        I<   14:49   0:00 [ata_sff]
+root       233  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_0]
+root       234  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_0]
+root       235  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_1]
+root       236  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_1]
+root       237  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_2]
+root       238  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_2]
+root       239  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_3]
+root       240  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_3]
+root       243  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_4]
+root       244  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_4]
+root       245  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_5]
+root       246  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_5]
+root       247  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_6]
+root       248  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_6]
+root       249  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_7]
+root       250  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_7]
+root       251  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_8]
+root       252  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_8]
+root       253  0.0  0.0      0     0 ?        S    14:49   0:00 [scsi_eh_9]
+root       254  0.0  0.0      0     0 ?        I<   14:49   0:00 [scsi_tmf_9]
+root       299  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/4:1H-kblockd]
+root       300  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/10:1H-kblockd]
+root       301  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/9:1H-kblockd]
+root       306  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/6:1H-kblockd]
+root       308  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/8:1H-kblockd]
+root       311  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/3:1H-kblockd]
+root       312  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/5:1H-kblockd]
+root       315  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/u25:0-hci0]
+root       317  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/0:1H-kblockd]
+root       318  0.0  0.0      0     0 ?        S    14:49   0:00 [jbd2/sdb2-8]
+root       319  0.0  0.0      0     0 ?        I<   14:49   0:00 [ext4-rsv-conver]
+root       325  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/6:2-events]
+root       327  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/1:1H-kblockd]
+root       330  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/11:1H-kblockd]
+root       352  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/2:1H-kblockd]
+root       354  0.0  0.1 121416 59144 ?        Ss   14:49   0:00 /usr/lib/systemd/systemd-journald
+root       357  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/3:2-cgroup_destroy]
+root       361  0.0  0.0  78280  1328 ?        Ss   14:49   0:00 /usr/bin/lvmetad -f
+root       364  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/7:1H-kblockd]
+root       365  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/5:2-mm_percpu_wq]
+root       366  0.0  0.0      0     0 ?        I<   14:49   0:00 [iprt-VBoxWQueue]
+root       367  0.0  0.0      0     0 ?        S    14:49   0:00 [iprt-VBoxTscThr]
+root       368  0.0  0.0  45492  9636 ?        Ss   14:49   0:00 /usr/lib/systemd/systemd-udevd
+root       392  0.0  0.0      0     0 ?        S    14:49   0:00 [nvidia-modeset]
+root       498  0.0  0.0      0     0 ?        I<   14:49   0:00 [led_workqueue]
+root       511  0.0  0.0      0     0 ?        S    14:49   0:00 [irq/62-mei_me]
+root       679  0.0  0.0      0     0 ?        I<   14:49   0:00 [cfg80211]
+root       687  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/u25:1-hci0]
+root       698  0.0  0.0      0     0 ?        S    14:49   0:00 [jbd2/sdb3-8]
+root       699  0.0  0.0      0     0 ?        I<   14:49   0:00 [ext4-rsv-conver]
+haveged    710  0.0  0.0   8112  4656 ?        Ss   14:49   0:01 /usr/bin/haveged --Foreground --verbose=1
+root       711  0.0  0.0   8424  2560 ?        Ss   14:49   0:00 /usr/bin/crond -n
+root       712  0.0  0.0  30444  7192 ?        Ss   14:49   0:00 /usr/lib/systemd/systemd-logind
+dbus       713  0.0  0.0  11948  5152 ?        Rs   14:49   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       714  0.0  0.0 494484 18548 ?        Ssl  14:49   0:00 /usr/bin/NetworkManager --no-daemon
+root       715  0.0  0.0 318168 10048 ?        Ssl  14:49   0:00 /usr/bin/ModemManager
+root       716  0.0  0.0  12484  5304 ?        Ss   14:49   0:00 /usr/lib/bluetooth/bluetoothd
+avahi      717  0.0  0.0  10616  3856 ?        Ss   14:49   0:00 avahi-daemon: running [leManjarooo.local]
+avahi      733  0.0  0.0  10492   336 ?        S    14:49   0:00 avahi-daemon: chroot helper
+root       735  0.0  0.0 139840 14992 ?        Ssl  14:49   0:00 /usr/bin/sddm
+polkitd    736  0.0  0.0 2570184 21768 ?       Ssl  14:49   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root       765  1.6  0.2 149476 76948 tty1     Ss+  14:49   3:40 /usr/lib/Xorg -nolisten tcp -auth /var/run/sddm/{83b54194-61f4-4b39-a71e-d22a8647c4f2} -background none -noreset -displayfd 17 -seat seat0 vt1
+root      1176  0.7  0.0      0     0 ?        S    14:49   1:43 [irq/66-nvidia]
+root      1177  0.0  0.0      0     0 ?        S    14:49   0:00 [nvidia]
+root      1206  0.0  0.0 407464 12908 ?        Ssl  14:49   0:03 /usr/lib/udisks2/udisksd
+root      1220  0.0  0.0 260796  9500 ?        Ssl  14:49   0:00 /usr/lib/upowerd
+root      1272  0.0  0.0 106372 15740 ?        S    14:49   0:00 /usr/lib/sddm/sddm-helper --socket /tmp/sddm-auth4b0e91da-e738-4f5a-9f84-cf64f2068782 --id 1 --start /usr/bin/startkde --user gambuzx
+gambuzx   1276  0.0  0.0  36212  9060 ?        Ss   14:49   0:00 /usr/lib/systemd/systemd --user
+gambuzx   1277  0.0  0.0 233808  2972 ?        S    14:49   0:00 (sd-pam)
+gambuzx   1287  0.0  0.1 304260 39308 ?        Sl   14:49   0:01 /usr/bin/kwalletd5 --pam-login 7 3
+gambuzx   1288  0.0  0.0   7108  3444 ?        S    14:49   0:00 /bin/sh /usr/bin/startkde
+gambuzx   1297  0.0  0.0  11028  4580 ?        Ss   14:49   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gambuzx   1322  0.0  0.0   2204    88 ?        S    14:49   0:00 /usr/lib/kf5/start_kdeinit --kded +kcminit_startup
+gambuzx   1323  0.0  0.0 112636 19452 ?        Ss   14:49   0:00 kdeinit5: Running...
+gambuzx   1324  0.0  0.1 303356 38236 ?        Sl   14:49   0:01 /usr/lib/kf5/klauncher --fd=9
+gambuzx   1327  0.0  0.1 1412160 65200 ?       Sl   14:49   0:04 kded5 [kdeinit5]
+gambuzx   1342  0.0  0.1 303072 37812 ?        Sl   14:49   0:01 /usr/bin/kglobalaccel5
+gambuzx   1346  0.0  0.0 240688 18736 ?        Sl   14:49   0:01 /usr/lib/kf5/kscreen_backend_launcher
+gambuzx   1347  0.0  0.1 314252 39436 ?        Sl   14:49   0:01 /bin/kaccess
+gambuzx   1349  0.0  0.0  51052  7068 ?        S    14:49   0:00 kwrapper5 /usr/bin/ksmserver
+gambuzx   1352  0.0  0.1 393240 46164 ?        Sl   14:49   0:01 /usr/bin/ksmserver
+gambuzx   1363  0.0  0.0 156868  5120 ?        Sl   14:49   0:00 /usr/lib/dconf-service
+gambuzx   1367  1.8  0.4 2978932 155128 ?      Sl   14:49   4:01 /bin/kwin_x11 -session 1014913e11dd3000153816343800000011700008_1551213541_312880
+gambuzx   1369  0.0  0.1 268673012 35764 ?     SNl  14:49   0:00 /bin/baloo_file
+gambuzx   1371  0.0  0.2 469636 82488 ?        Sl   14:49   0:02 /bin/krunner
+gambuzx   1373  0.7  0.7 1738328 250656 ?      Sl   14:49   1:36 /bin/plasmashell
+gambuzx   1379  0.0  0.1 453672 40712 ?        Sl   14:49   0:01 /usr/lib/polkit-kde-authentication-agent-1
+gambuzx   1384  0.0  0.0 247356 20184 ?        Sl   14:49   0:01 /bin/xembedsniproxy
+gambuzx   1386  0.0  0.0 248364 21584 ?        Sl   14:49   0:01 /bin/gmenudbusmenuproxy
+gambuzx   1397  0.0  0.1 392620 47884 ?        Sl   14:49   0:02 /usr/lib/kdeconnectd -session 1014913e11dd3000155121023700000013510006_1551213541_302030
+gambuzx   1412  0.0  0.1 319556 44868 ?        Sl   14:49   0:02 /bin/msm_kde_notifier -session 1014913e11dd3000153816343800000011700007_1551213541_302040
+gambuzx   1413  0.1  0.0 1707100 13412 ?       S<sl 14:49   0:16 /usr/bin/pulseaudio --daemonize=no
+gambuzx   1415  0.0  0.0 565280 32020 ?        Sl   14:49   0:01 /usr/lib/kactivitymanagerd
+gambuzx   1419  0.0  0.1 427824 38296 ?        Sl   14:49   0:01 /usr/lib/org_kde_powerdevil -session 1014913e11dd3000153816343800000011700009_1551213541_302048
+rtkit     1429  0.0  0.0 154692  2644 ?        SNsl 14:49   0:00 /usr/lib/rtkit-daemon
+gambuzx   1431  0.0  0.1 415640 49252 ?        Sl   14:49   0:01 /bin/octopi-notifier -session 1014913e11dd3000153843751300000012840011_1551213541_302067
+gambuzx   1463  0.0  0.0 235288  4796 ?        Sl   14:49   0:00 /usr/lib/geoclue-2.0/demos/agent
+gambuzx   1526  0.0  0.0  44680  6640 ?        Ss   14:49   0:00 /usr/lib/bluetooth/obexd
+root      1528  0.0  0.0      0     0 ?        S<   14:49   0:00 [krfcommd]
+root      1535  0.0  0.0 143104 12216 ?        Sl   14:49   0:00 /usr/lib/octopi/pacmanhelper
+gambuzx   1562  0.0  0.0 249752  6776 ?        Sl   14:49   0:00 /usr/lib/pulse/gsettings-helper
+gambuzx   1574  0.0  0.0 112972 17044 ?        S    14:49   0:00 file.so [kdeinit5] file local:/run/user/1000/klauncherJBNSuz.1.slave-socket local:/run/user/1000/kio_desktopDQxlGt.1.slave-socket
+gambuzx   1601  0.0  0.1 303020 38188 ?        Sl   14:49   0:01 /usr/bin/kuiserver5
+root      1607  0.0  0.0  54260  8264 ?        Ss   14:49   0:00 /usr/bin/cupsd -l
+gambuzx   1625  0.2  0.2 901864 72556 ?        Sl   14:50   0:33 /usr/bin/python2 /bin/terminator
+gambuzx   1629  0.0  0.0 237804  7012 ?        Ssl  14:50   0:00 /usr/lib/gvfsd
+gambuzx   1634  0.0  0.0 379076  5968 ?        Sl   14:50   0:00 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+gambuzx   1646  0.0  0.0 308060  6300 ?        Ssl  14:50   0:00 /usr/lib/at-spi-bus-launcher
+gambuzx   1652  0.0  0.0  10664  4044 ?        S    14:50   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gambuzx   1654  0.0  0.0 167664  7176 ?        Sl   14:50   0:02 /usr/lib/at-spi2-registryd --use-gnome-session
+gambuzx   1663  0.0  0.0   7964  4276 pts/1    Ss+  14:50   0:00 /bin/bash
+gambuzx   1727  0.0  0.0 112988 17008 ?        S    14:50   0:00 file.so [kdeinit5] file local:/run/user/1000/klauncherJBNSuz.1.slave-socket local:/run/user/1000/kded5BgtFID.1.slave-socket
+gambuzx   1967  3.0  1.1 1475308 379744 ?      Sl   14:53   6:43 /usr/lib/chromium/chromium
+gambuzx   1970  0.0  0.0   2448   728 ?        S    14:53   0:00 /usr/lib/chromium/chrome-sandbox /usr/lib/chromium/chromium --type=zygote
+gambuzx   1971  0.0  0.2 376336 89568 ?        S    14:53   0:00 /usr/lib/chromium/chromium --type=zygote
+gambuzx   1973  0.0  0.0 376336 14248 ?        S    14:53   0:00 /usr/lib/chromium/chromium --type=zygote
+gambuzx   1995  1.5  0.7 705972 262376 ?       Sl   14:53   3:30 /usr/lib/chromium/chromium --type=gpu-process --field-trial-handle=15480840847085916304,6494835026564147473,131072 --gpu-preferences=KAAAAAAAAACAAACAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=2207834541048013745
+gambuzx   2063  0.0  0.0 421628 25380 ?        S    14:54   0:00 /usr/lib/chromium/chromium --type=-broker
+gambuzx   2071  0.0  0.3 732784 120000 ?       Sl   14:54   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=4448413483197041848 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=4448413483197041848 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2095  0.1  0.5 847260 194040 ?       Sl   14:54   0:18 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=14253678944426757476 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=14253678944426757476 --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2135  0.0  0.2 670588 84884 ?        Sl   14:54   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=6351944894142534384 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=6351944894142534384 --renderer-client-id=3 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2224  0.0  0.3 715984 103260 ?       Sl   14:54   0:01 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=12011149992801592203 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=12011149992801592203 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2231  0.0  0.2 669564 85224 ?        Sl   14:54   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=18074812026305970277 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=18074812026305970277 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2240  0.0  0.3 709068 105768 ?       Sl   14:54   0:04 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=11657673975041258434 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=11657673975041258434 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2263  0.5  0.6 1992352 214636 ?      Sl   14:54   1:07 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=11201666113511756290 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=11201666113511756290 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2450  0.1  0.4 759376 140756 ?       Sl   14:54   0:14 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=9958036285657368506 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=9958036285657368506 --renderer-client-id=22 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2666  0.0  0.4 773660 153044 ?       Sl   15:01   0:05 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=14440736564505025924 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=14440736564505025924 --renderer-client-id=30 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2800  0.0  0.2 603660 74288 ?        Sl   15:06   0:03 /usr/lib/chromium/chromium --type=ppapi --field-trial-handle=15480840847085916304,6494835026564147473,131072 --ppapi-flash-args --lang=en-US --service-request-channel-token=13260745995579230296
+gambuzx   2811  0.0  0.3 681464 109164 ?       Sl   15:06   0:01 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=14242382391566944874 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=14242382391566944874 --renderer-client-id=34 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2834  0.0  0.3 682744 110320 ?       Sl   15:06   0:07 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=1925975803585088904 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=1925975803585088904 --renderer-client-id=35 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2851  0.2  0.5 785980 188772 ?       Sl   15:06   0:28 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=17533619653633910996 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=17533619653633910996 --renderer-client-id=36 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   2937  1.9  0.4 1791136 141848 ?      Ssl  15:08   4:00 /usr/lib/electron/electron /usr/lib/code/code.js
+gambuzx   2939  0.0  0.1 349524 51704 ?        S    15:08   0:00 /usr/lib/electron/electron --type=zygote --no-sandbox
+gambuzx   2970  1.8  0.4 697136 153136 ?       Rl   15:08   3:45 /usr/lib/electron/electron --type=gpu-process --disable-features=ColorCorrectRendering --no-sandbox --gpu-preferences=KAAAAAAAAACAAACAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=D1B6F921329CDF750A36B7237734B46D
+gambuzx   2983  4.9  1.0 1960808 340120 ?      Sl   15:08  10:13 /usr/lib/electron/electron --type=renderer --no-sandbox --disable-features=ColorCorrectRendering --service-pipe-token=52EBFBC87C23F49D79354D0CD6C3FED9 --lang=en-US --app-path=/usr/lib/code --node-integration=true --webview-tag=true --no-sandbox --background-color=#1e1e1e --num-raster-threads=4 --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=52EBFBC87C23F49D79354D0CD6C3FED9 --renderer-client-id=4 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   3017  0.0  0.0   7584  4264 pts/2    Ss+  15:08   0:00 /bin/bash
+gambuzx   3022  0.1  0.3 1122540 121988 ?      Sl   15:08   0:15 /usr/lib/electron/electron --nolazy --inspect=61205 /usr/lib/code/out/bootstrap-fork --type=extensionHost
+gambuzx   3037  0.0  0.2 984132 82380 ?        Rl   15:08   0:01 /usr/lib/electron/electron /usr/lib/code/out/bootstrap-fork --type=watcherService
+gambuzx   3047  0.0  0.3 1157568 102652 ?      Sl   15:08   0:01 /usr/lib/electron/electron --type=renderer --no-sandbox --disable-features=ColorCorrectRendering --service-pipe-token=7934C4511A66CBEC4A0A023653650C02 --lang=en-US --app-path=/usr/lib/code --node-integration=true --webview-tag=true --no-sandbox --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=4 --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=7934C4511A66CBEC4A0A023653650C02 --renderer-client-id=6 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   4294  0.2  0.7 1038356 256360 ?      Sl   15:25   0:22 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=14192141845526746570 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=14192141845526746570 --renderer-client-id=53 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx   5110  0.0  0.0   7752  4304 pts/3    Ss   15:37   0:00 /bin/bash
+gambuzx   5146  0.0  0.0   7452  3756 pts/4    Ss   15:38   0:00 /bin/bash
+gambuzx   5530  0.0  0.3 707740 110576 ?       Sl   15:43   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=1341799553427411775 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=1341799553427411775 --renderer-client-id=62 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      5565  0.0  0.0      0     0 ?        I    15:43   0:00 [kworker/2:1]
+gambuzx   8034  0.0  0.3 740636 119768 ?       Sl   16:26   0:02 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=4293853563809102740 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=4293853563809102740 --renderer-client-id=113 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      9002  0.0  0.0      0     0 ?        I    16:49   0:00 [kworker/1:0-mm_percpu_wq]
+root      9558  0.0  0.0      0     0 ?        I    16:59   0:00 [kworker/7:2-events]
+gambuzx  10872  0.0  0.0  11828  3944 pts/4    S+   17:17   0:00 man fgets
+gambuzx  10885  0.0  0.0   6468  1060 pts/4    S+   17:17   0:00 less
+gambuzx  11116  0.1  0.3 722148 121624 ?       Sl   17:19   0:05 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=15583911223732328264 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=15583911223732328264 --renderer-client-id=153 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     11167  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/11:2-events]
+root     11307  0.0  0.0      0     0 ?        I    17:22   0:00 [kworker/1:2-events]
+gambuzx  11551  0.0  0.3 721636 119180 ?       Sl   17:24   0:02 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=13160639617962980220 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=13160639617962980220 --renderer-client-id=166 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     12329  0.0  0.0      0     0 ?        I    17:36   0:00 [kworker/11:1-mm_percpu_wq]
+root     12330  0.0  0.0      0     0 ?        I    17:36   0:00 [kworker/8:0-mm_percpu_wq]
+root     12842  0.0  0.0      0     0 ?        I    17:49   0:00 [kworker/5:0-events]
+root     12858  0.0  0.0      0     0 ?        I    17:50   0:00 [kworker/9:0-events]
+root     13034  0.0  0.0      0     0 ?        I    18:00   0:00 [kworker/10:2-events]
+root     13253  0.0  0.0      0     0 ?        I    18:07   0:00 [kworker/u24:0-events_unbound]
+root     13324  0.0  0.0      0     0 ?        I    18:10   0:00 [kworker/9:2-events]
+gambuzx  13431  0.1  0.4 748716 139240 ?       Sl   18:12   0:01 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=8121139709184561598 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=8121139709184561598 --renderer-client-id=192 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     13719  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/4:2-cgroup_destroy]
+gambuzx  13799  0.2  0.4 747040 135132 ?       Sl   18:18   0:01 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=12842696988961055001 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=12842696988961055001 --renderer-client-id=195 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gambuzx  13824  0.0  0.1 621936 49068 ?        Sl   18:18   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial-handle=15480840847085916304,6494835026564147473,131072 --service-pipe-token=16327942494930261518 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=16327942494930261518 --renderer-client-id=196 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     13997  0.0  0.0      0     0 ?        I    18:21   0:00 [kworker/8:1]
+root     14172  0.0  0.0      0     0 ?        I    18:23   0:00 [kworker/u24:1-events_unbound]
+root     14208  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/10:1-mm_percpu_wq]
+root     14377  0.0  0.0      0     0 ?        I    18:30   0:00 [kworker/9:1]
+gambuzx  14478  0.0  0.0   2296  1472 pts/3    S+   18:33   0:00 ./p11
+gambuzx  14534  0.0  0.0  13364  3556 pts/3    R+   18:33   0:00 ps aux
