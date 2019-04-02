@@ -28,10 +28,16 @@ int main() {
         exit(1);
     }
 
-    do {
-        fd_w=open("/tmp/fifo_ans", O_WRONLY);
-        if (fd_w==-1) sleep(1);
-    } while (fd_w==-1);
+    if (mkfifo("/tmp/fifo_ans", 0660) < 0 ) {
+        if(errno==EEXIST) printf("FIFO '/tmp/fifo_req' already exists\n");
+        else printf("Couldnt create FIFO\n");
+        exit(1);
+    }
+
+    if ((fd_w = open("/tmp/fifo_ans", O_WRONLY)) == -1) {
+        perror("open");
+        exit(1);
+    }
 
     if ((fd_r = open("/tmp/fifo_req", O_RDONLY)) == -1) {
         perror("open");
@@ -39,33 +45,39 @@ int main() {
     }
 
     int n[2];
-    readint(fd_r, &n[0]);
-    readint(fd_r, &n[1]);
+    while(1) {
+        readint(fd_r, &n[0]);
+        readint(fd_r, &n[1]);
 
-    int calc = n[0] + n[1];
-    write(fd_w, &INT, sizeof(int));
-    write(fd_w, &calc, sizeof(int));
+        if (n[0] == 0 && n[1] == 0) break;
 
-    calc = n[0] - n[1];
-    write(fd_w, &INT, sizeof(int));
-    write(fd_w, &calc, sizeof(int));
+        int calc = n[0] + n[1];
+        write(fd_w, &INT, sizeof(int));
+        write(fd_w, &calc, sizeof(int));
 
-    calc = n[0] * n[1];
-    write(fd_w, &INT, sizeof(int));
-    write(fd_w, &calc, sizeof(int));
+        calc = n[0] - n[1];
+        write(fd_w, &INT, sizeof(int));
+        write(fd_w, &calc, sizeof(int));
 
-    if (n[1] == 0) {
-        write(fd_w, &INVALID, sizeof(int));
-        write(fd_w, 0, sizeof(double));
-    }
-    else {
-        double calcd = (double) (n[0])/ n[1];
-        write(fd_w, &FLOAT, sizeof(int));
-        write(fd_w, &calcd, sizeof(double));
+        calc = n[0] * n[1];
+        write(fd_w, &INT, sizeof(int));
+        write(fd_w, &calc, sizeof(int));
+
+        if (n[1] == 0) {
+            write(fd_w, &INVALID, sizeof(int));
+            write(fd_w, 0, sizeof(double));
+        }
+        else {
+            double calcd = (double) (n[0])/ n[1];
+            write(fd_w, &FLOAT, sizeof(int));
+            write(fd_w, &calcd, sizeof(double));
+        }
+
     }
 
     close(fd_r);
     close(fd_w);
+    unlink("/tmp/fifo_ans");
     unlink("/tmp/fifo_req");
 
     return 0;

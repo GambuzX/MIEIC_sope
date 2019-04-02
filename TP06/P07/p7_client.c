@@ -16,18 +16,23 @@ void readdouble(int fd, double * res);
 
 int main() {
     int fd_r, fd_w;
-    mkfifo("/tmp/fifo_ans", 0660);
-
     do {
         fd_r=open("/tmp/fifo_ans", O_RDONLY);
         if (fd_r==-1) sleep(1);
     } while (fd_r==-1);
     
-    fd_w=open("/tmp/fifo_req", O_WRONLY);
+    do {
+        fd_w=open("/tmp/fifo_req", O_WRONLY);
+        if (fd_r==-1) sleep(1);
+    } while (fd_r==-1);
 
     int n[2];
     scanf("%d %d", &n[0], &n[1]);
     write(fd_w, n, 2 * sizeof(int));
+
+    if (n[0] == 0 && n[1] == 0) {
+        goto end;
+    }
 
     int calc, status;
     readint(fd_r, &status);
@@ -66,12 +71,10 @@ int main() {
     readdouble(fd_r, &calcd);
     printf("Div = %lf\n", calcd);
     
+    end:
 
     close(fd_r);
     close(fd_w);
-    unlink("/tmp/fifo_ans");
-
-
 
     return 0;
 }
