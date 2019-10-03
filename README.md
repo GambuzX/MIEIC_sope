@@ -10,7 +10,7 @@ Exercises solved during practical classes for the SOPE curricular unit.
 
 <br>
 
-**Final Grade: ??**
+**Final Grade: 20**
 
 ### Technologies and Software Used
 * C
